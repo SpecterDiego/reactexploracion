@@ -15,7 +15,8 @@ export default function HomeScreen() {
           </View>
           <Image
             source={require("@/assets/images/Foto.png")}
-            style={{ width: 150, height: 150, resizeMode: "contain" }}
+            style={{ width: 150, height: 150 }}
+            resizeMode="center"
           />
         </View>
         <Text style={textStyle.info}>diegoalejandromieses@gmail.com</Text>
